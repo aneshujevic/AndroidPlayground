@@ -19,16 +19,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        firstTw = (TextView)findViewById(R.id.thirdTextView);
+        firstTw = findViewById(R.id.thirdTextView);
         firstTw.setText("Ne podesavajmo tekstove ovako, losa je to praksa");
 
-        firstBtn = (Button)findViewById(R.id.firstButton);
-        firstBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                makeText(getApplicationContext(), getString(R.string.message), Toast.LENGTH_LONG).show();
-            }
-        });
-
+        firstBtn = findViewById(R.id.firstButton);
+        firstBtn.setOnClickListener(v -> makeText(this, getString(R.string.message), Toast.LENGTH_LONG).show());
     }
 }
