@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Intents Example</string>
+    <string name="firstActivityText">Main activity</string>
+    <string name="resultActivityHeaderText">Result activity</string>
+    <string name="placeholderFirstEditTextMain">Prvi broj</string>
+    <string name="placeholderSecondEditTextMain">Drugi broj</string>
+    <string name="addButtonText">Saberi</string>
+    <string name="newActivityResultText">Rezultat je: </string>
+    <string name="showMessagesButtonText">Show hidden messages</string>
+    <string name="serializableHeaderTextView">Serializable message</string>
+    <string name="parcelableHeaderTextView">Parcelable message</string>
+    <string name="goToMainActivity">Go back to main act</string>
+</resources>
