@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Saberi" />
+
+        <item
+            android:id="@+id/subtract"
+            android:icon="@drawable/ic_remove_circle_black_24dp"
+            android:title="Oduzmi" />
+
+        <item
+            android:id="@+id/pitanje0"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 0" />
+
+        <item
+            android:id="@+id/pitanje1"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 1" />
+
+        <item
+            android:id="@+id/pitanje2"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 2" />
+
+        <item
+            android:id="@+id/pitanje3"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 3" />
+
+        <item
+            android:id="@+id/pitanje4"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 4" />
+
+        <item
+            android:id="@+id/pitanje5"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 5" />
+
+        <item
+            android:id="@+id/pitanje6"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 6" />
+
+        <item
+            android:id="@+id/pitanje7"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 7" />
+
+        <item
+            android:id="@+id/pitanje8"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 8" />
+
+        <item
+            android:id="@+id/pitanje9"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="Pitanje 9" />
+    </group>
+</menu>

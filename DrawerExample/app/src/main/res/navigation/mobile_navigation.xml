@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/pitanje0">
+
+    <fragment
+        android:id="@+id/add"
+        android:name="com.example.drawerexample.ui.add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/subtract"
+        android:name="com.example.drawerexample.ui.subtract"
+        tools:layout="@layout/fragment_subtract" />
+    <fragment
+        android:id="@+id/pitanje0"
+        android:name="com.example.drawerexample.ui.pitanje0"
+        tools:layout="@layout/fragment_pitanje0" />
+    <fragment
+        android:id="@+id/pitanje1"
+        android:name="com.example.drawerexample.ui.pitanje1"
+        tools:layout="@layout/fragment_pitanje1" />
+    <fragment
+        android:id="@+id/pitanje2"
+        android:name="com.example.drawerexample.ui.pitanje2"
+        tools:layout="@layout/fragment_pitanje2" />
+    <fragment
+        android:id="@+id/pitanje3"
+        android:name="com.example.drawerexample.ui.pitanje3"
+        tools:layout="@layout/fragment_pitanje3" />
+    <fragment
+        android:id="@+id/pitanje4"
+        android:name="com.example.drawerexample.ui.pitanje4"
+        tools:layout="@layout/fragment_pitanje4" />
+    <fragment
+        android:id="@+id/pitanje5"
+        android:name="com.example.drawerexample.ui.pitanje5"
+        tools:layout="@layout/fragment_pitanje5" />
+    <fragment
+        android:id="@+id/pitanje6"
+        android:name="com.example.drawerexample.ui.pitanje6"
+        tools:layout="@layout/fragment_pitanje6" />
+    <fragment
+        android:id="@+id/pitanje7"
+        android:name="com.example.drawerexample.ui.pitanje7"
+        tools:layout="@layout/fragment_pitanje7" />
+    <fragment
+        android:id="@+id/pitanje8"
+        android:name="com.example.drawerexample.ui.pitanje8"
+        tools:layout="@layout/fragment_pitanje8" />
+    <fragment
+        android:id="@+id/pitanje9"
+        android:name="com.example.drawerexample.ui.pitanje9"
+        tools:layout="@layout/fragment_pitanje9" />
+</navigation>
