@@ -1,0 +1,2 @@
+rootProject.name='Pictures_JSON'
+include ':app'
